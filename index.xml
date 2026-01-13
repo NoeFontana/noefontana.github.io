@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Perception &amp; Engineering</title>
+<link>https://noefontana.github.io/</link>
+<atom:link href="https://noefontana.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Technical notes on Perception, ML, and Engineering Leadership.</description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Thu, 08 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Lorem Ipsum</title>
+  <link>https://noefontana.github.io/posts/2026-01-08-stack-test/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="mathematical-rendering-latex" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-rendering-latex">1. Mathematical Rendering (LaTeX)</h2>
+<p>Testing the rendering of the Kalman Filter update step:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cmathbf%7BP%7D_%7Bk%7Ck%7D%20=%20(I%20-%20%5Cmathbf%7BK%7D_k%20%5Cmathbf%7BH%7D_k)%20%5Cmathbf%7BP%7D_%7Bk%7Ck-1%7D%0A"></p>
+</section>
+<section id="system-architecture-mermaid" class="level2">
+<h2 class="anchored" data-anchor-id="system-architecture-mermaid">2. System Architecture (Mermaid)</h2>
+<p>Testing diagram generation for a standard Perception pipeline:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A[Lidar] --&gt; B(PointPillars)
+    C[Camera] --&gt; D(ResNet-50)
+    B --&gt; E{Fusion}
+    D --&gt; E
+    E --&gt; F[Track List]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2026,
+  author = {},
+  title = {Lorem {Ipsum}},
+  date = {2026-01-08},
+  url = {https://noefontana.github.io/posts/2026-01-08-stack-test/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2026" class="csl-entry quarto-appendix-citeas">
+<span>“Lorem Ipsum.”</span> 2026. January 8, 2026. <a href="https://noefontana.github.io/posts/2026-01-08-stack-test/">https://noefontana.github.io/posts/2026-01-08-stack-test/</a>.
+</div></div></section></div> ]]></description>
+  <category>meta</category>
+  <category>lorem-ipsum</category>
+  <guid>https://noefontana.github.io/posts/2026-01-08-stack-test/</guid>
+  <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
